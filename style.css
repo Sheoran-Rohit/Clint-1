@@ -1,0 +1,27 @@
+html{
+  background-color: #364F6B;
+  color: white;
+}
+#header{
+  margin: 0;
+  height:170px;
+  background-color: grey;
+}
+
+#h2{
+  position: relative;
+  top:0px;
+  left:150px;
+  font-size:50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#img{
+  border:3px solid white;
+  height:100x;
+  width:100px;
+  border-radius: 3%;
+  position: relative;
+  top:9px;
+  
+}

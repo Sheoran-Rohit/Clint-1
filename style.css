@@ -1,29 +1,47 @@
 body{
-  background-color: #364F6B;
-  color: white;
-  margin-top:0;
+  background-color: #F4E9D7;
 }
 
-#header{
-
-  background-color: blue;
-  height:152px;
-  width: 100%;
-  position: relative ;
+.header{
+  border: 3px solid black;
+  border-radius:2rem;
+  corner-shape:squircle;
+  text-align: center;
 }
 
-#header #img{
-  height: 150px;
-  width: 150px;
-  position: absolute ;
-  top:0;
-  border: 2px solid white;
+.header > p{
+  font-size: 1.5rem;
 }
-
-h2{
-  position: absolute ;
-  top:0px;
-  left:150px;
+#name{
+  color: #689B8A;
   font-size: 3rem;
-  border: 2px solid ;
+  font-family: Times;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 2rem;
+  color: #D97D55;
+  font-family: Times;
+}
+
+.subsection{
+  font-size: 1.4rem;
+}
+
+.list{
+  font-size: 1.4rem;
+}
+
+.footer{
+  font-size: 1.4rem;
+}
+
+.section{
+  border: 3px solid black;
+  border-radius:2rem;
+  corner-shape:squircle;
+  margin-top:1rem;
+  
+  
 }

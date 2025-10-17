@@ -8,40 +8,63 @@
 </head>
 
 <body>
-  <div id="main">
-   <div id="header">
-     <h2 id="h2">Rohit Sheoran</h2>
-     <img id="img" src="./profile pic.png"/>
-   </div>
-  <hr />
-  
-  <h3>Education:</h3>
-  <h4>Schooling</h4>
-  <ul>
-    <li>10th - Captain High School, Tosham (2019)</li>
-    <li>12th - P.S Navyug Sr. Sec School, Tosham (2021)</li>
-  </ul>
-  <h4>Graduation</h4>
-  <ul>
-    <li>B.Sc - Govt. College, Hisar (2024)</li>
-  </ul>
-  <hr />
-  <h3>Skills:</h3>
-  <ul>
-    <li>Proficient in html, CSS, Java </li>
-    <li>Intermediate in Using Git & Github</li>
-    <li>Learning Python</li>
-  </ul>
-  <hr />
-  <h3>Work Experience:</h3>
-  <ol>
-    <li>Mechanic Helper (2023)</li>
-    <li>Facebook - Front End Dev (2023-2024)</li>
-    <li>Google - Full Stack Dev (2024-Current)</li>
-  </ol>
-  <hr />
-  Here are my <a href="./hobbies.html">Hobbies</a> <br />
-  To <a href="./contact.html">Contact</a>
+  <div class="container">
+    
+    <header class="header">
+      <h1 id="name">Rohit Sheoran</h1>
+      <p>I'm a professional coder who can work on both Front-End and Back-End</p>
+    </header>
+    
+    <!-- <hr> -->
+    
+    <section id="education" class="section">
+      <h3 class="section-title">Education</h3>
+      
+      <div class="subsection schooling">
+        <h4 class="subsection-title">Schooling</h4>
+        <ul class="list">
+          <li>10th - Captain High School, Tosham (2019)</li>
+          <li>12th - P.S Navyug Sr. Sec School, Tosham (2021)</li>
+        </ul>
+      </div>
+      
+      <div class="subsection graduation">
+        <h4 class="subsection-title">Graduation</h4>
+        <ul class="list">
+          <li>B.Sc - Govt. College, Hisar (2024)</li>
+        </ul>
+      </div>
+    </section>
+    
+    <!-- <hr> -->
+    
+    <section id="skills" class="section">
+      <h3 class="section-title">Skills</h3>
+      <ul class="list">
+        <li>Proficient in HTML, CSS, Java</li>
+        <li>Intermediate in Git & GitHub</li>
+        <li>Learning Python</li>
+      </ul>
+    </section>
+    
+    <!-- <hr> -->
+    
+    <section id="experience" class="section">
+      <h3 class="section-title">Work Experience</h3>
+      <ol class="list ordered">
+        <li>Mechanic Helper (2023)</li>
+        <li>Facebook - Front End Developer (2023–2024)</li>
+        <li>Google - Full Stack Developer (2024–Current)</li>
+      </ol>
+    </section>
+    
+    <!-- <hr> -->
+    
+    <footer class="footer">
+      <p>Here are my <a id="hobbies-link" href="./hobbies.html">Hobbies</a></p>
+      <p>To <a id="contact-link" href="./contact.html">Contact</a></p>
+    </footer>
+    
   </div>
 </body>
 
